@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.graph {
+  background-color: #e5007d;
+}
+
+footer {
+  background-color: #f3c5c3;
+}
+
+.bgenfoires {
+  padding-top: 3rem;
+  height: 100vh;
+  background-image: url(../assets/photo/colucheEnfoires.png);
+  filter: grayscale(50%);
+}
+
+.spectacle {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.spectacle,
+.concert {
+  color: #e5007d;
+  text-decoration: underline;
+  text-decoration-color: #f3c5c3;
+  color: #ffffff;
+  background: #23232336;
+  text-shadow: 0 0 20px #be18ff, 0 0 30px #e418ff, 0 0 40px #a318ff,
+    0 0 55px #dc18ff, 0 0 75px #ff18d1, 2px 2px 2px rgba(206, 89, 55, 0.01);
+  border-radius: 10px;
+}
+
+.icone {
+  height: 30px;
+  width: 30px;
+}
+
+.coluche {
+  border-radius: 20px;
+  height: 300px;
+  width: 300px;
+}
+
+.heightDon {
+  justify-content: center;
+  border: 5px solid #f3c5c3;
+  padding: 50px;
+}
+
+.pink {
+  color: #e5007d;
+  font-size: 1.5em;
+  margin-bottom: 50px;
+  border: 2px solid #e5007d;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+#corps {
+  margin: 0;
+}
+
+.list-group-item {
+  font-weight: bold;
+}
+
+h2,
+h1 {
+  color: #a318ff;
+}
+
+.cadre {
+  border: 10px solid #e5007d;
+}
