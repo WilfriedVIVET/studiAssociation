@@ -8,8 +8,10 @@
   background-color: #e5007d;
 }
 
-footer {
-  background-color: #f3c5c3;
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
 }
 
 .bgenfoires {
@@ -77,4 +79,13 @@ h1 {
 
 .cadre {
   border: 10px solid #e5007d;
+}
+
+footer {
+  background-color: #f3c5c3;
+  height: 100px;
+}
+
+.card {
+  box-shadow: 5px 5px 15px 5px #cf7d7d;
 }
