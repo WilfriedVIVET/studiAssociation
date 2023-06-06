@@ -8,6 +8,12 @@
   background-color: #e5007d;
 }
 
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
 .logo {
   height: 50px;
   width: 50px;
@@ -17,7 +23,8 @@
 .bgenfoires {
   padding-top: 3rem;
   height: 100vh;
-  background-image: url(../assets/photo/colucheEnfoires.png);
+  background: url(../assets/photo/colucheEnfoires.png) no-repeat;
+  background-size: cover;
   filter: grayscale(50%);
 }
 
@@ -45,8 +52,6 @@
 
 .coluche {
   border-radius: 20px;
-  height: 300px;
-  width: 300px;
 }
 
 .heightDon {
@@ -68,17 +73,14 @@
   margin: 0;
 }
 
-.list-group-item {
+.list-group-item,
+h6 {
   font-weight: bold;
 }
 
 h2,
 h1 {
   color: #a318ff;
-}
-
-.cadre {
-  border: 10px solid #e5007d;
 }
 
 footer {
@@ -88,4 +90,22 @@ footer {
 
 .card {
   box-shadow: 5px 5px 15px 5px #cf7d7d;
+}
+/**************hover********************/
+
+.nav-link:hover {
+  cursor: grab;
+}
+
+/***************Mediaquery**********************/
+
+@media screen and (max-width: 990px) {
+  .sizeCard {
+    width: 50%;
+  }
+
+  #card {
+    display: flex;
+    justify-content: space-between;
+  }
 }
