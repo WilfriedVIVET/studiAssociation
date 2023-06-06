@@ -8,12 +8,6 @@
   background-color: #e5007d;
 }
 
-.navbar {
-  position: fixed;
-  width: 100%;
-  z-index: 2;
-}
-
 .logo {
   height: 50px;
   width: 50px;
@@ -91,6 +85,7 @@ footer {
 .card {
   box-shadow: 5px 5px 15px 5px #cf7d7d;
 }
+
 /**************hover********************/
 
 .nav-link:hover {
@@ -100,12 +95,15 @@ footer {
 /***************Mediaquery**********************/
 
 @media screen and (max-width: 990px) {
-  .sizeCard {
+  .card-img-top {
     width: 50%;
-  }
-
-  #card {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #title {
+    display: none;
   }
 }
